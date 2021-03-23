@@ -7,7 +7,7 @@ Pod::Spec.new do |spec|
   spec.homepage     = "https://github.com/Tangerine-AI"
   spec.license      = "MIT"
   spec.author             = { "Reenu" => "reenu.deswal@tangerine.ai" }
-  spec.platform     = :ios, "12.2"
+  spec.platform     = :ios, "13"
   spec.source       = { :git => "https://github.com/Tangerine-AI/TangerineKeyDistribution.git", :tag => "1.0.0" }
   spec.framework = "TangerineKey"
   spec.dependency 'Alamofire', '~> 4.7'
