@@ -1,0 +1,11 @@
+framework module TangerineKey {
+  umbrella header "TangerineKey.h"
+
+  export *
+  module * { export * }
+}
+
+module TangerineKey.Swift {
+    header "TangerineKey-Swift.h"
+    requires objc
+}
