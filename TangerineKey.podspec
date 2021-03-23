@@ -1,7 +1,7 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "TangerineKey"
-  spec.version      = "1.0.0"
+  spec.version      = "1.1.0"
   spec.summary      = "TangerineKey SDK allow you to lock unlock your car using Tangerine Sense device."
   spec.description  = "This framework allows you to lock unlock your car using Tangerine Key hardware. It is compatible with Tangerine sense hardware."
   spec.homepage     = "https://github.com/Tangerine-AI"
