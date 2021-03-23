@@ -12,5 +12,5 @@ Pod::Spec.new do |spec|
   spec.framework = "TangerineKey"
   spec.dependency 'Alamofire', '~> 4.7'
   spec.vendored_frameworks = 'TangerineKey.framework'
-  spec.swift_version = "5.0"
+  spec.swift_version = "5.1"
 end
