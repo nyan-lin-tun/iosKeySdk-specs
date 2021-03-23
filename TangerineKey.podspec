@@ -8,7 +8,7 @@ Pod::Spec.new do |spec|
   spec.license      = "MIT"
   spec.author             = { "Reenu" => "reenu.deswal@tangerine.ai" }
   spec.platform     = :ios, "13"
-  spec.source       = { :git => "https://github.com/Tangerine-AI/TangerineKeyDistribution.git", :tag => spec.version }
+  spec.source       = { :git => "https://github.com/nyan-lin-tun/iosKeySdk-specs.git", :tag => spec.version }
   spec.framework = "TangerineKey"
   spec.dependency 'Alamofire', '~> 5.2'
   spec.vendored_frameworks = 'TangerineKey.framework'
