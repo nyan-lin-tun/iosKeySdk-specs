@@ -10,7 +10,7 @@ Pod::Spec.new do |spec|
   spec.platform     = :ios, "13"
   spec.source       = { :git => "https://github.com/Tangerine-AI/TangerineKeyDistribution.git", :tag => "1.0.0" }
   spec.framework = "TangerineKey"
-  spec.dependency 'Alamofire', '~> 4.7'
+  spec.dependency 'Alamofire', '~> 5.2'
   spec.vendored_frameworks = 'TangerineKey.framework'
   spec.swift_version = "5.1"
 end
